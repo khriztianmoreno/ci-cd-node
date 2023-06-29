@@ -1,11 +1,11 @@
-require('dotenv').config();
+require('dotenv').config()
 
 const express = require('express');
 
-const configExpress = require('./config/express');
-const routes = require('./routes');
+const configExpress = require('./config/express')
+const routes = require('./routes')
 
-const app = express();
+const app = express()
 
 configExpress(app);
 routes(app);
